@@ -1,0 +1,121 @@
+@import '../../common/styles/main.less';
+@import '../../common/styles/twTheme.less';
+
+.rootContainer {
+  background: #fff;
+  width: 100%;
+
+  .sectionContainer {
+    overflow: hidden;
+
+    .triggerBtn {
+      position: absolute;
+      right: 24px;
+      .noBorderButton;
+    }
+
+    .contentContainer {
+      height: 100%;
+
+      :global {
+        .ant-spin-nested-loading {
+          height: 100%;
+          overflow-y: auto;
+          .scrollbarCommonStyle;
+
+          .ant-spin {
+            max-height: none;
+
+            .ant-spin-text {
+              font-size: 16px;
+            }
+          }
+        }
+      }
+
+      .content {
+        background: #F3F4F7;
+        // height: calc(100vh - 96px);
+
+      }
+    }
+  }
+
+  .menuHeader {
+    // background-color: @layout-header-background;
+    height: 56px;
+    line-height: 54px;
+    color: #fff;
+    font-size: 16px;
+    text-align: left;
+    padding-left: 24px;
+
+    img {
+      width: 20px;
+      height: 20px;
+    }
+
+    span {
+      margin-left: 8px;
+    }
+  }
+
+  // ant design message组件全局样式修改
+  :global {
+    .global-ant-message {
+      .ant-message-notice-content {
+        min-width: 760px;
+        text-align: left;
+        height: 48px;
+        padding: 0;
+
+        .ant-message-custom-content {
+          height: 100%;
+          line-height: 46px;
+          padding: 0 24px;
+
+          .anticon {
+            width: 16px;
+            height: 16px;
+
+            svg {
+              display: none;
+            }
+          }
+        }
+
+        .ant-message-success {
+          background: #E5F6F3;
+          color: #03AD8F;
+
+          .anticon {
+            background: url('../../assets/images/success_fill_icon.svg');
+          }
+        }
+
+        .ant-message-error {
+          background: #FEF4F4;
+          color: #F5222D;
+
+          .anticon {
+            background: url('../../assets/images/error_fill_icon.svg');
+          }
+        }
+      }
+    }
+  }
+}
+
+.tmisGlobalEmpty {
+  text-align: center;
+  margin: 50px 0;
+
+  img {
+    width: 87px;
+    margin-bottom: 5px;
+  }
+
+  p {
+    color: #CAD3DE;
+  }
+}

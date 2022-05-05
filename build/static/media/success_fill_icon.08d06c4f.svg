@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 3</title>
+    <g id="通用" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="通用" transform="translate(-602.000000, -72.000000)">
+            <g id="通用" transform="translate(578.000000, 56.000000)">
+                <g id="编组-3" transform="translate(24.000000, 16.000000)">
+                    <circle id="椭圆形" fill="#03AD8F" cx="8" cy="8" r="8"></circle>
+                    <polyline id="路径" stroke="#FFFFFF" stroke-width="1.2" points="4.21928653 7.75847818 7.08798667 10.7586282 12.1830295 5.58024784"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

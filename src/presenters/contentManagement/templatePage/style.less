@@ -1,0 +1,106 @@
+@import '../../../common/styles/main.less';
+
+.templatePageContainer {
+  background: #f3f4f7;
+  padding: 24px;
+  position: relative;
+
+  .templatePageContainer {
+    position: relative;
+    min-height: calc(100vh - 144px);
+    padding: 24px;
+    box-shadow: 0px 10px 15px -10px rgba(0, 18, 41, 0.12);
+    background: #fff;
+
+    .searchArea {
+      padding: 24px 0;
+      background: #fff;
+
+      .buttons {
+        display: inline-block;
+
+        button {
+          &:nth-child(1) {
+            margin-right: 24px;
+          }
+        }
+      }
+
+      .currentSelected {
+        margin-left: 8px;
+        margin-right: 16px;
+      }
+
+      .allChecked {
+        margin-right: 24px;
+      }
+
+      .allCheckedIcon {
+        cursor: pointer;
+
+        img {
+          margin-left: 16px;
+          margin-right: 8px;
+        }
+      }
+    }
+
+    .padding {
+      padding-bottom: 24px;
+    }
+
+    .vertical {
+      background: rgba(0, 0, 0, 0.4);
+      border: 1px solid #979797;
+    }
+
+    .dividerContainer {
+      background: #fff;
+      .divider {
+        margin: 0px;
+        background: #dbdfe5;
+      }
+    }
+
+    .buttonsContainer {
+      background: #fff;
+      padding: 24px 0;
+    }
+
+    .materialCardContainer {
+      min-width: 1222px;
+
+      // position: relative;
+      // .margin {
+      //   margin: 0 24px;
+      // position: relative;
+      .materialCard {
+        // position: absolute;
+        margin-bottom: 25px;
+      }
+
+      // }
+    }
+
+    .pagination {
+      text-align: center;
+    }
+
+    .dataEmpty {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -30%);
+
+      img {
+        width: 87px;
+        margin-bottom: 5px;
+      }
+
+      p {
+        color: #cad3de;
+        margin: 24px 0;
+      }
+    }
+  }
+}

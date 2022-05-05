@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>切片</title>
+    <g id="设备管理" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="广告机/LED1-分组配置2" transform="translate(-567.000000, -283.000000)">
+            <g id="icon/cha2备份-2" transform="translate(567.000000, 283.000000)">
+                <rect id="矩形" fill="#D8D8D8" opacity="0" x="0" y="0" width="16" height="16"></rect>
+                <path d="M3.05025247,3.05025254 C5.78392253,0.316582486 10.2160774,0.316582486 12.9497475,3.05025254 C15.6834175,5.7839226 15.6834175,10.2160775 12.9497475,12.9497475 C10.2160774,15.6834175 5.78392257,15.6834175 3.05025254,12.9497475 C0.316582515,10.2160774 0.316582482,5.78392261 3.05025247,3.05025254 Z" id="形状" fill="#666666" fill-rule="nonzero"></path>
+                <line x1="4.36182583" y1="8.26664936" x2="11.6381742" y2="8.00052536" id="直线-3" stroke="#FFFFFF" stroke-width="1.2" stroke-linecap="round" transform="translate(8.000000, 8.133587) rotate(-315.000000) translate(-8.000000, -8.133587) "></line>
+                <line x1="7.29053306" y1="11.5990897" x2="8.38701845" y2="4.40091029" id="直线-3" stroke="#FFFFFF" stroke-width="1.2" stroke-linecap="round" transform="translate(7.838776, 8.000000) rotate(-141.566586) translate(-7.838776, -8.000000) "></line>
+            </g>
+        </g>
+    </g>
+</svg>

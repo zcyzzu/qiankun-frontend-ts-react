@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>切片</title>
+    <g id="设备管理" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="广告机/LED" transform="translate(-1788.000000, -401.000000)">
+            <g id="编组-6" transform="translate(1704.000000, 270.000000)">
+                <g id="icon/bianji备份-12" transform="translate(84.000000, 131.000000)">
+                    <rect id="矩形" fill="#D8D8D8" opacity="0" x="0" y="0" width="18" height="18"></rect>
+                    <g id="编组" transform="translate(2.500000, 2.500000)" stroke="#2D8BFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2">
+                        <polyline id="路径" points="12.5357143 6.7405113 12.5357143 13 0 13 0 0.464285714 6.04212041 0.464285714"></polyline>
+                        <line x1="5.10714286" y1="7.89285714" x2="12.5357143" y2="0.464285714" id="直线"></line>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

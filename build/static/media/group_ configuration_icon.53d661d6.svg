@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="33px" height="32px" viewBox="0 0 33 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 8</title>
+    <g id="设备管理" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="广告机/LED" transform="translate(-915.000000, -200.000000)">
+            <g id="编组-7" transform="translate(824.000000, 200.000000)">
+                <g id="编组-8" transform="translate(91.000000, 0.000000)">
+                    <rect id="矩形" fill="#F7F9FC" fill-rule="nonzero" x="0" y="0" width="33" height="32" rx="4"></rect>
+                    <g id="编组-3" transform="translate(9.000000, 8.500000)" stroke="#333333" stroke-width="1.2">
+                        <line x1="14.6842105" y1="2.03125" x2="12.3157895" y2="2.03125" id="路径" stroke-linecap="round"></line>
+                        <line x1="8.68421053" y1="2.03125" x2="0" y2="2.03125" id="路径" stroke-linecap="round"></line>
+                        <line x1="3.15789474" y1="7.5" x2="1.8189894e-12" y2="7.5" id="路径" stroke-linecap="round"></line>
+                        <line x1="15" y1="7.5" x2="6.31578947" y2="7.5" id="路径" stroke-linecap="round"></line>
+                        <line x1="14.6842105" y1="12.96875" x2="12.3157895" y2="12.96875" id="路径" stroke-linecap="round"></line>
+                        <line x1="8.68421053" y1="12.96875" x2="0" y2="12.96875" id="路径" stroke-linecap="round"></line>
+                        <ellipse id="椭圆形" cx="10.6184211" cy="1.875" rx="1.29473684" ry="1.275"></ellipse>
+                        <ellipse id="椭圆形备份" cx="4.93421053" cy="7.5" rx="1.29473684" ry="1.275"></ellipse>
+                        <ellipse id="椭圆形备份-2" cx="10.6184211" cy="13.125" rx="1.29473684" ry="1.275"></ellipse>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

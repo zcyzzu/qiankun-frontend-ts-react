@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>切片</title>
+    <g id="总览" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="总览-实时总览" transform="translate(-175.000000, -1112.000000)">
+            <g id="菜单栏/实时总览" transform="translate(0.000000, 56.000000)">
+                <g id="icon-菜单栏-向内折叠" transform="translate(175.000000, 1056.000000)">
+                    <rect id="矩形" fill="#D8D8D8" opacity="0" x="0" y="0" width="20" height="20"></rect>
+                    <g id="编组" transform="translate(2.000000, 2.500000)" stroke="#A8ACB1">
+                        <line x1="0.5" y1="0.916666667" x2="15.5" y2="0.916666667" id="路径-5" stroke-width="1.2" stroke-linecap="square"></line>
+                        <line x1="0.5" y1="5.08333333" x2="9.25" y2="5.08333333" id="路径-5备份" stroke-width="1.2" stroke-linecap="square"></line>
+                        <line x1="0.5" y1="10.0833333" x2="9.25" y2="10.0833333" id="路径-5备份-2" stroke-width="1.2" stroke-linecap="square"></line>
+                        <line x1="0.5" y1="14.25" x2="15.5" y2="14.25" id="路径-5备份-3" stroke-width="1.2" stroke-linecap="square"></line>
+                        <polygon id="路径-6" stroke-width="0.833333333" fill="#A8ACB1" stroke-linecap="round" points="15.4842257 5.06143142 11.8752986 7.7967541 15.4842257 10.5320768"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

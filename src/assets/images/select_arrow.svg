@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>切片</title>
+    <g id="上屏发布" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="发布列表" transform="translate(-342.000000, -152.000000)">
+            <g id="编组-9" transform="translate(267.000000, 144.000000)">
+                <g id="编组" transform="translate(15.000000, 6.000000)">
+                    <g id="icon/jiantou4备份-5" transform="translate(60.000000, 2.000000)">
+                        <rect id="矩形" fill-opacity="0.01" fill="#FFFFFF" fill-rule="nonzero" x="0" y="0" width="16" height="16"></rect>
+                        <g id="编组-9">
+                            <rect id="矩形" fill="#D8D8D8" opacity="0" x="0" y="0" width="16" height="16"></rect>
+                            <path d="M5,4.93425855 L5,11.0657415 C5,11.3418838 5.22385763,11.5657415 5.5,11.5657415 C5.59871249,11.5657415 5.69521634,11.5365224 5.7773501,11.4817666 L10.3759623,8.41602515 C10.6057266,8.26284892 10.6678136,7.95241425 10.5146373,7.7226499 C10.4780199,7.66772376 10.4308884,7.62059228 10.3759623,7.58397485 L5.7773501,4.5182334 C5.54758575,4.36505717 5.23715108,4.4271441 5.08397485,4.65690845 C5.02921901,4.73904221 5,4.83554605 5,4.93425855 Z" id="路径-3" fill="#333333" transform="translate(8.000000, 8.000000) rotate(90.000000) translate(-8.000000, -8.000000) "></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

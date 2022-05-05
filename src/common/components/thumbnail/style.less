@@ -1,0 +1,83 @@
+@import '../../../common/styles/main.less';
+.thumbnailContainer {
+  height: 135px;
+  width: 240px;
+  background-color: #F7F9FC;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+
+  .img {
+    max-height: 135px;
+    max-width: 240px;
+  }
+
+  .titlePosition {
+    position: absolute;
+    color: #ffffff;
+    bottom: 32px;
+    left: 8px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: bold;
+    z-index: 1;
+  }
+
+  .resolutionPosition {
+    position: absolute;
+    color: #d2d9e3;
+    bottom: 8px;
+    left: 8px;
+    font-size: 12px;
+    line-height: 16px;
+    z-index: 1;
+  }
+
+  .timeStrPosition {
+    position: absolute;
+    display: flex;
+    color: #d2d9e3;
+    bottom: 8px;
+    right: 8px;
+    font-size: 12px;
+    line-height: 16px;
+    z-index: 1;
+    img {
+      align-items: center;
+      margin-right: 4px;
+    }
+  }
+
+  .imageShadow {
+    position: absolute;
+    height: 60px;
+    left: 0;
+    bottom: 0;
+    pointer-events: none;
+  }
+  
+  .video {
+    max-height: 135px;
+    max-width: 240px;
+  }
+
+  .videoShadow {
+    position: absolute;
+    height: 60px;
+    left: 0;
+    bottom: 0;
+  }
+
+  .imageContainer {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+  }
+
+  .videoContainer {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+  }
+}

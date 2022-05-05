@@ -1,0 +1,75 @@
+@import '../../../../common/styles/main.less';
+
+.exportModalContainer {
+  :global {
+    .ant-row {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      .ant-col {
+        height: 100%;
+      }
+    }
+    .ant-modal-body {
+      padding: 0;
+    }
+    .ant-input-number {
+      margin-left: 8px;
+      margin-right: 8px;
+    }
+  }
+
+  .exportModalContent {
+    .commonModalContent(300px);
+    :global {
+      .ant-form-item-label {
+        text-align: left;
+        .ant-form-item-required::after {
+          display: none;
+        }
+      }
+    }
+  }
+  .modalHeader {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    .modelClosed();
+    button {
+      float: right;
+    }
+    .modalHeaderSticky();
+  }
+
+  .paddingBottomSpace {
+    padding-bottom: 20px;
+  }
+
+  .bottomButton {
+    margin-top: 40px;
+    text-align: center;
+    button {
+      &:nth-child(1) {
+        margin-right: 16px;
+      }
+    }
+  }
+  .rowBottomTurn {
+    margin-bottom: 24px;
+    :global {
+      .ant-checkbox + span  {
+        width: 100%;
+        .overflowEllipsis(200px);
+      }
+    }
+  }
+  .rowBottomOr {
+    margin-bottom: 24px;
+    :global {
+      .ant-checkbox + span  {
+        width: 100%;
+        .overflowEllipsis(450px);
+      }
+    }
+  }
+}

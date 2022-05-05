@@ -1,0 +1,25 @@
+{
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    { "language": "typescript", "autoFix": true },
+    { "language": "typescriptreact", "autoFix": true }
+  ],
+  "eslint.alwaysShowStatus": true,
+  "eslint.options": {"configFile": ".eslintrc.js"},
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": false
+  },
+  "[typescript]": {
+    "editor.formatOnSave": false
+  },
+  "[typescriptreact]": {
+    "editor.formatOnSave": false
+  },
+  "files.eol": "\n",
+  "editor.tabSize": 2
+}

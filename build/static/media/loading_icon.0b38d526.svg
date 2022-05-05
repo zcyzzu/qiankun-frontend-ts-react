@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>切片</title>
+    <g id="设备管理" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="广告机/LED2" transform="translate(-1747.000000, -302.000000)">
+            <g id="编组-2" transform="translate(1729.000000, 237.514155)">
+                <g id="编组备份" transform="translate(18.000000, 61.485845)">
+                    <g id="icon/fuxuankuang" transform="translate(0.000000, 3.000000)">
+                        <rect id="矩形" fill="#D8D8D8" opacity="0" x="0" y="0" width="18" height="18"></rect>
+                        <g id="编组-2" transform="translate(1.000000, 1.000000)" stroke="#4096FF" stroke-linecap="round" stroke-width="1.06666667">
+                            <line x1="7.84338399" y1="0" x2="7.84338399" y2="4" id="路径-11"></line>
+                            <line x1="11.9752804" y1="1.71148754" x2="11.9752804" y2="5.71148754" id="路径-11" transform="translate(11.975280, 3.711488) rotate(45.000000) translate(-11.975280, -3.711488) "></line>
+                            <line x1="13.686768" y1="5.84338399" x2="13.686768" y2="9.84338399" id="路径-11" transform="translate(13.686768, 7.843384) rotate(90.000000) translate(-13.686768, -7.843384) "></line>
+                            <line x1="11.9752804" y1="9.97528043" x2="11.9752804" y2="13.9752804" id="路径-11" transform="translate(11.975280, 11.975280) rotate(135.000000) translate(-11.975280, -11.975280) "></line>
+                            <line x1="7.84338399" y1="11.686768" x2="7.84338399" y2="15.686768" id="路径-11" transform="translate(7.843384, 13.686768) rotate(180.000000) translate(-7.843384, -13.686768) "></line>
+                            <line x1="3.71148754" y1="9.97528043" x2="3.71148754" y2="13.9752804" id="路径-11" transform="translate(3.711488, 11.975280) rotate(225.000000) translate(-3.711488, -11.975280) "></line>
+                            <line x1="2" y1="5.84338399" x2="2" y2="9.84338399" id="路径-11" transform="translate(2.000000, 7.843384) rotate(270.000000) translate(-2.000000, -7.843384) "></line>
+                            <line x1="3.71148754" y1="1.71148754" x2="3.71148754" y2="5.71148754" id="路径-11" transform="translate(3.711488, 3.711488) rotate(315.000000) translate(-3.711488, -3.711488) "></line>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

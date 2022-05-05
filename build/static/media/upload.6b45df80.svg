@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="37px" height="36px" viewBox="0 0 37 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 2</title>
+    <g id="上屏发布" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="发布列表-配置发布的内容" transform="translate(-269.000000, -423.000000)">
+            <g id="编组-11" transform="translate(79.000000, 0.000000)">
+                <g id="编组-10备份" transform="translate(32.000000, 304.000000)">
+                    <g id="编组-8" transform="translate(16.000000, 64.000000)">
+                        <g id="编组-3备份" transform="translate(116.000000, 55.000000)">
+                            <g id="编组-2" transform="translate(26.500000, 0.000000)">
+                                <circle id="椭圆形" fill="#4096FF" cx="18" cy="18" r="18"></circle>
+                                <line x1="11.5" y1="18" x2="24.5" y2="18" id="直线-2" stroke="#FFFFFF" stroke-width="1.2" stroke-linecap="square"></line>
+                                <line x1="18" y1="11.5" x2="18" y2="24.5" id="直线-3" stroke="#FFFFFF" stroke-width="1.2" stroke-linecap="square"></line>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

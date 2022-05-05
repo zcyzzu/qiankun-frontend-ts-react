@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>切片</title>
+    <g id="通用" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="round">
+        <g id="通用" transform="translate(-1880.000000, -20.000000)" stroke="#FFFFFF" stroke-width="1.2">
+            <g id="通用" transform="translate(1880.000000, 20.000000)">
+                <polyline id="通用" points="3.5 5.5 8 10.1088997 12.4754056 5.5"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

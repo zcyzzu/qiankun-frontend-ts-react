@@ -1,0 +1,144 @@
+@import '../../../common/styles/main.less';
+
+.root {
+  display: inline-block;
+
+  .templateAndMaterialContainer {
+    background: #f7f9fc;
+    text-align: center;
+    // display: inline-block;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    line-height: 0;
+
+    // :global {
+    //   .ant-image {
+    //     display: block;
+    //   }
+    // }
+
+    .img {
+      width: 100%;
+      height: 100%;
+    }
+
+    .materialType {
+      position: absolute;
+      width: 42px;
+      height: 24px;
+      bottom: 8px;
+      left: 8px;
+      background: rgba(0, 0, 0, 0.4);
+      border-radius: 4px;
+      color: #ffffff;
+      font-size: 12px;
+      line-height: 24px;
+      z-index: 1;
+    }
+
+    .editIcon {
+      position: absolute;
+      width: 58px;
+      height: 32px;
+      bottom: 8px;
+      left: 8px;
+      background: rgba(0, 0, 0, 0.4);
+      border-radius: 16px;
+      color: #ffffff;
+      font-size: 12px;
+      line-height: 32px;
+      z-index: 1;
+    }
+
+    .checkboxIcon {
+      position: absolute;
+      color: #d2d9e3;
+      top: 8px;
+      left: 8px;
+      z-index: 1;
+    }
+
+    .moreIcon {
+      position: absolute;
+      color: #d2d9e3;
+      bottom: 8px;
+      right: 8px;
+      z-index: 1;
+    }
+
+    .checkIcon {
+      img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+      }
+    }
+
+    .mask {
+      position: absolute;
+      background: rgba(0, 0, 0, 0.4);
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      pointer-events: none;
+    }
+
+    .opacity {
+      opacity: 1;
+    }
+
+    .dropdown {
+      position: absolute;
+      bottom: 8px;
+      right: 8px;
+      z-index: 1;
+      // .opertionBtn {
+      //   .noBorderButton;
+      //   img {
+      //     width: 18px;
+      //     height: 18px;
+      //   }
+      // }
+    }
+  }
+
+  .title {
+    width: 306px;
+    height: 24px;
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 9px;
+    color: #333738;
+    z-index: 1;
+    .overflowEllipsis (100%);
+
+    >div {
+      display: flex;
+    }
+
+    span {
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+    }
+
+    :global {
+      .ant-btn {
+        float: right;
+        font-size: 12px;
+        min-width: 42px;
+        width: 42px;
+        height: 24px;
+      }
+
+      .ant-input-borderless {
+        border-bottom: 1px solid #F1F4F7;
+      }
+    }
+  }
+}

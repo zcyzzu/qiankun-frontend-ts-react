@@ -1,0 +1,283 @@
+/*
+ * @Author: liyou
+ * @Date: 2021-06-04 17:31:40
+ * @LastEditors: tongyuqiang
+ * @LastEditTime: 2022-02-21 18:01:58
+ */
+
+@riseColor : #F5222D;
+@declineColor : #03AD8F;
+@commonYellow : #F9CA41;
+@commonBlue : #4096FF;
+
+// 无边框无背景的按钮
+.noBorderButton {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+// 滚动条样式
+.scrollbarCommonStyle {
+  &::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    border-radius: 6px;
+    background: #D2D9E3;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: #fff;
+  }
+}
+
+// 下拉选择框滚动样式
+.rc-virtual-list-scrollbar-thumb {
+  background: #D2D9E3 !important;
+  width: 6px !important;
+}
+
+.ant-select-tree-list-scrollbar-thumb {
+  background: #D2D9E3 !important;
+  width: 6px !important;
+}
+
+// 公共的modal内容元素样式
+.commonModalContent(@modalMinHeight) {
+  min-height: @modalMinHeight;
+  max-height: calc(100vh - 180px);
+  overflow-y: scroll;
+  .scrollbarCommonStyle;
+  padding: 0 24px 40px 24px;
+  padding-top: 0;
+
+  :global {
+    .ant-btn .ant-btn-text {
+      background-color: red;
+    }
+  }
+}
+
+// custom modal header sticky to modal top
+.modalHeaderSticky {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+
+  button {
+    float: right;
+  }
+
+  position : sticky;
+  top : 0;
+  z-index : 100;
+  background-color: white;
+  padding : 24px 0 20px 0;
+}
+
+// 描述文案字体样式
+.descriptionLabel {
+  color: #666;
+  font-size: 12px;
+}
+
+//model 关闭样式
+.modelClosed {
+  :global {
+    .ant-btn {
+      padding: 0;
+      height: 32px;
+      line-height: 7px;
+      min-width: 35px;
+      width: 35px;
+
+      >img {
+        padding-right: 1px;
+        margin: 0;
+      }
+
+      margin-top: -3px;
+    }
+  }
+}
+
+// 文本超长省略号
+.overflowEllipsis (@width) {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: inline-block;
+  max-width: @width;
+}
+
+// for form item that cannot set required rule
+.formItemRequired {
+  :global {
+    .ant-form-item-label {
+      label::before {
+        display: inline-block;
+        margin-right: 4px;
+        color: #ff4d4f;
+        font-size: 14px;
+        font-family: SimSun, sans-serif;
+        line-height: 1;
+        content: '*';
+      }
+    }
+  }
+}
+
+// 页面表格统一样式
+.table {
+  :global {
+    .ant-table-thead>tr>th {
+      background: #F7F9FC;
+      padding: 11px;
+    }
+    .ant-table-tbody > tr > td.ant-table-cell-row-hover {
+      background: #F7F9FC;
+    }
+    .ant-table-tbody>tr>td {
+      border-bottom: 1px solid #F1F4F7;
+
+      .ant-btn>span {
+        display: inline;
+      }
+    }
+
+    .ant-table-empty .ant-table-tbody>tr>td {
+      border: 0;
+      overflow: hidden;
+    }
+
+    .ant-table-wrapper {
+      min-width: calc(100vw - 204px);
+    }
+  }
+
+  .statusStyle {
+    position: relative;
+    width: 72px;
+    height: 24px;
+    padding-left: 20px;
+    border-radius: 4px;
+    border: none;
+    line-height: 24px;
+
+    .openStatus {
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+      position: absolute;
+      left: 11px;
+      top: 10px;
+    }
+  }
+
+  .stopStatusStyle {
+    position: relative;
+    width: 72px;
+    height: 24px;
+    padding-left: 11px;
+    border-radius: 4px;
+    border: none;
+    line-height: 24px;
+
+    .openStatus {
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+      position: absolute;
+      left: 4px;
+      top: 10px;
+    }
+  }
+
+  .publish_device {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+    .storesType {
+      display: inline-block;
+      height: 24px;
+      padding: 0 5px;
+      background: #e5fbfa;
+      border-radius: 4px;
+      color: #27d2d6;
+      text-align: center;
+      line-height: 24px;
+      margin-right: 10px;
+    }
+  }
+
+  .columnContentShow {
+    .overflowEllipsis (100%);
+    .noBorderButton;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+
+  }
+
+  .opertionBtn {
+    .noBorderButton;
+    padding: 0;
+    margin-right: 24px;
+
+    img {
+      width: 18px;
+      height: 18px;
+    }
+  }
+}
+
+// 顶部搜索框样式
+.searchArea {
+  background: #fff;
+
+  .buttons {
+    button {
+      &:nth-child(1) {
+        margin-right: 16px;
+        color: #4096FF;
+        border-color: #4096FF;
+      }
+    }
+  }
+}
+
+// 表格上方按钮样式
+.buttonsContainer {
+  font-size: 14px;
+  color: #999999;
+  background: #fff;
+  padding: 24px 0;
+
+  button {
+    border-radius: 4px;
+    border: 1px solid #4096FF;
+
+    img {
+      margin-right: 4px;
+      margin-top: -4px;
+    }
+
+    &:nth-child(1) {
+      margin-right: 8px;
+    }
+
+    &:nth-child(2) {
+      margin-right: 8px;
+    }
+
+    &:nth-child(3) {
+      margin-right: 8px;
+    }
+  }
+}

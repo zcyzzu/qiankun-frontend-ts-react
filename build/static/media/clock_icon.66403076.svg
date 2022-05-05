@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>切片</title>
+    <g id="上屏发布" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="发布列表-查看广告机，LED" transform="translate(-603.000000, -930.000000)">
+            <g id="编组-6" transform="translate(108.000000, 0.000000)">
+                <g id="编组-3备份" transform="translate(305.000000, 819.000000)">
+                    <g id="编组" transform="translate(190.000000, 111.000000)">
+                        <rect id="矩形" fill="#D8D8D8" opacity="0" x="0" y="0" width="16" height="16"></rect>
+                        <circle id="椭圆形" stroke="#D2D9E3" stroke-width="1.2" cx="8" cy="8" r="5.9"></circle>
+                        <polyline id="路径-13" stroke="#D2D9E3" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" points="7.5 5.51857498 7.5 9.04057176 10.063996 9.04057176"></polyline>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

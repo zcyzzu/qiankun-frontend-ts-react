@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>切片</title>
+    <g id="上屏发布" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="发布列表-历史上传记录" transform="translate(-1330.000000, -428.000000)">
+            <g id="编组-7" transform="translate(1242.000000, 331.000000)">
+                <g id="编组-8" transform="translate(0.000000, 97.000000)">
+                    <g id="icon/success备份" transform="translate(88.000000, 0.000000)">
+                        <rect id="矩形" fill="#D8D8D8" opacity="0" x="0" y="0" width="18" height="18"></rect>
+                        <g id="编组-4">
+                            <circle id="椭圆形" fill="#F5222D" cx="8" cy="8" r="8"></circle>
+                            <g id="编组-5" transform="translate(5.333333, 5.333333)" stroke="#FFFFFF" stroke-width="1.2">
+                                <line x1="-4.73552415e-14" y1="0" x2="5.30857886" y2="5.25443773" id="路径-2"></line>
+                                <line x1="5.30857886" y1="0" x2="3.78956126e-14" y2="5.25443773" id="路径-3"></line>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

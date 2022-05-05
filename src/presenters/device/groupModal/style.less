@@ -1,0 +1,214 @@
+@import '../../../common/styles/main.less';
+
+.exportModalContainer {
+  .paddingBottomSpace {
+    padding-bottom: 20px;
+  }
+
+  .exportModalContent {
+    .commonModalContent(300px);
+    :global {
+      .ant-form-item-label {
+        text-align: left;
+        .ant-form-item-required::after {
+          display: none;
+        }
+      }
+    }
+  }
+
+  .bgTr {
+    background: rgba(45, 139, 255, 0.15) !important;
+  }
+
+  .transfer {
+    margin-bottom: 40px;
+    :global {
+      .ant-checkbox-input{
+        border-color: #DBDFE5;
+        background: #F4F7FB;
+      }
+      .ant-btn-primary[disabled]{
+        color: #F5F9FE;
+        background-color: #F5F9FE;
+        span{
+          color: #D2D9E3;
+        }
+      }
+      .ant-transfer-list {
+        padding: 16px;
+        // height: 100%;
+        .ant-transfer-list-header {
+          display: none;
+        }
+      }
+      .ant-table-tbody {
+        div {
+          margin: 20px 0;
+        }
+      }
+      .ant-table-cell::before {
+        display: none;
+      }
+    }
+  }
+  .transferTitle {
+    margin-bottom: 5px;
+    .transferSelected {
+      padding-left: 20px;
+      span {
+        color: #4096ff;
+        margin-left: 24px;
+        cursor: pointer;
+      }
+    }
+  }
+  .screening {
+    margin-bottom: 15px;
+    span {
+      cursor: pointer;
+      color: #4096ff;
+      margin-left: 15px;
+      font-size: 14px;
+    }
+  }
+  .equipment {
+    margin: 40px 0 24px 0;
+  }
+  .add {
+    font-size: 14px;
+    color: #666666;
+    text-align: right;
+    .addTag {
+      display: inline-block;
+      :global {
+        .ant-form {
+          display: inline-block;
+        }
+        .ant-form-item {
+          margin-bottom: 0;
+        }
+      }
+
+      .confirm {
+        background: rgba(45, 139, 255, 0.3);
+        border-color: #d2d9e3;
+      }
+
+      input {
+        width: 240px;
+        margin-left: 10px;
+      }
+    }
+    button {
+      height: 32px;
+      margin-left: 12px;
+    }
+  }
+  .group {
+    padding: 16px;
+    border-radius: 4px;
+    border: 1px solid #d2d9e3;
+    .groupContent {
+      :global {
+        .ant-tag {
+          cursor: pointer;
+          // width: 72px;
+          height: 32px;
+          border-radius: 4px;
+          border: 1px solid #2d8bff;
+          background: #fff;
+          font-size: 14px;
+          color: #4096ff;
+          position: relative;
+          text-align: center;
+          line-height: 32px;
+          margin-right: 20px;
+          margin-bottom: 10px;
+          padding-left: 20px;
+          padding-right: 20px;
+          span {
+            position: absolute;
+            top: -8px;
+            right: -8px;
+            display: flex;
+            // justify-content: center;
+            // align-items: center;
+            // width: 16px;
+            // height: 16px;
+            // background: rgba(102, 102, 102, 0.9);
+            // border-radius: 50%;
+            svg {
+              // font-size: 11px;
+              color: #fff;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  :global {
+    .ant-modal-body {
+      padding: 0;
+    }
+  }
+
+  .modalHeader {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    .modelClosed();
+    button {
+      float: right;
+    }
+    .modalHeaderSticky();
+  }
+  .bottomButton {
+    text-align: center;
+    button {
+      &:nth-child(1) {
+        margin-right: 16px;
+      }
+    }
+  }
+
+  .table {
+    background: #fff;
+    :global {
+      .ant-table-cell::before {
+        display: none;
+      }
+      thead {
+        tr {
+          th {
+            background: #f6f9fc;
+          }
+        }
+      }
+      .ant-table-pagination-right {
+        justify-content: center;
+      }
+    }
+    thead {
+      th {
+        padding: 11px;
+      }
+    }
+    .tableRow {
+      td {
+        padding: 11px;
+      }
+    }
+    .benefitsIcon {
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+    }
+    .operatorContaienr {
+      button {
+        .noBorderButton;
+      }
+    }
+  }
+}

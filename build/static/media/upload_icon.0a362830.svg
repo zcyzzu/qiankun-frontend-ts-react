@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>切片</title>
+    <g id="设备管理" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="广告机/LED" transform="translate(-1516.000000, -208.000000)">
+            <g id="按钮/新增备份-2" transform="translate(1504.000000, 201.000000)">
+                <g id="icon/xinzeng" transform="translate(12.000000, 7.000000)">
+                    <rect id="矩形" fill="#D8D8D8" opacity="0" x="0" y="0" width="18" height="18"></rect>
+                    <g id="编组" transform="translate(2.000000, 2.461500)" stroke="#4096FF" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2">
+                        <g id="编组-2" transform="translate(6.842319, 4.769250) scale(1, -1) translate(-6.842319, -4.769250) translate(2.276116, 0.000000)">
+                            <line x1="4.63241493" y1="-5.82442428e-15" x2="4.63241493" y2="8.75" id="路径-8"></line>
+                            <polyline id="路径-9" points="0 4.1780167 4.67580434 9.5385 9.13240553 4.1780167"></polyline>
+                        </g>
+                        <polyline id="路径-10" points="0 7.34349755 0 14.014723 13.9181702 14.014723 13.9181702 7.11284498"></polyline>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

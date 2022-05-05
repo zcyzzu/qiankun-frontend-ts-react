@@ -1,0 +1,80 @@
+@import '../../../../common/styles/main.less';
+
+.uploadHistoryRecordContainer {
+  .uploadHistoryRecordContent {
+    .commonModalContent(320px);
+    :global {
+      .ant-form-item-label {
+        text-align: left;
+        .ant-form-item-required::after {
+          display: none;
+        }
+      }
+    }
+  }
+
+  :global {
+    .ant-modal-body {
+      padding: 0;
+    }
+  }
+
+  .modalHeader {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    .modelClosed();
+    button {
+      float: right;
+    }
+    .modalHeaderSticky();
+  }
+
+  .bottomButton {
+    margin-top: 20px;
+    text-align: center;
+    button {
+      &:nth-child(1) {
+        margin-right: 16px;
+      }
+    }
+  }
+
+  .table {
+    margin: 9px 16px 0px;
+    background: #fff;
+    :global {
+      thead {
+        tr {
+          th {
+            background: #f6f9fc;
+          }
+        }
+      }
+      .ant-table-pagination-right {
+        justify-content: center;
+      }
+      .ant-table-thead {
+        .ant-table-cell::before {
+          display: none;
+        }
+      }
+    }
+    .tableRow {
+      td {
+        padding: 11px;
+      }
+    }
+  }
+
+  .opertionBtn {
+    .noBorderButton;
+    padding: 0;
+    margin-right: 24px;
+
+    img {
+      width: 18px;
+      height: 18px;
+    }
+  }
+}

@@ -1,0 +1,78 @@
+@import '../../../../common/styles/main.less';
+
+.exportModalContainer {
+  .exportModalContent {
+    .commonModalContent(300px);
+    :global {
+      .ant-form-item-label{
+        text-align: left;
+        .ant-form-item-required::after{
+          display: none;
+        }
+      }
+      .ant-select-arrow{
+        right: 16px;
+      }
+      .ant-picker-separator{
+        color:initial;
+      }
+    }
+  }
+
+  .timeImg{
+    margin: -20px 0 0 5px;
+    cursor: pointer;
+  }
+
+  :global {
+    .ant-modal-body {
+      padding: 0;
+    }
+  }
+
+  .modalHeader {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    .modelClosed();
+    button {
+      float: right;
+    }
+    .modalHeaderSticky();
+  }
+  .bottomButton {
+    margin-top: 40px;
+    text-align: center;
+    button {
+      &:nth-child(1) {
+        margin-right: 16px;
+      }
+    }
+  }
+
+}
+
+:global{
+  .ant-cascader-menus{
+    .ant-cascader-menu::-webkit-scrollbar{
+      width:5px;
+      height:5px;
+    }
+    .ant-cascader-menu::-webkit-scrollbar-track{
+      background: rgb(239, 239, 239);
+      border-radius:2px;
+    }
+    .ant-cascader-menu::-webkit-scrollbar-thumb{
+      background: #bfbfbf;
+      border-radius:10px;
+    }
+    .ant-cascader-menu::-webkit-scrollbar-thumb:hover{
+      background: #333;
+    }
+    .ant-cascader-menu::-webkit-scrollbar-corner{
+      background: #179a16;
+    }
+  }
+    
+}
+   

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="31px" height="30px" viewBox="0 0 31 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组</title>
+    <g id="播放列表" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="广告列表-查看3" transform="translate(-199.000000, -544.000000)">
+            <g id="编组" transform="translate(158.000000, 283.000000)">
+                <g transform="translate(41.167396, 261.000000)">
+                    <rect id="矩形" fill="#D8D8D8" opacity="0" x="0" y="0" width="30" height="30"></rect>
+                    <path d="M10.1287591,17.6883128 C8.10463118,15.526911 7.49310523,13.8477255 7.49310523,11.5380019 C7.49310523,9.22827828 8.44192527,7.01420217 10.1287591,5.38769094 C13.6433802,1.99010133 19.3423765,1.99010133 22.8569976,5.38769094 C24.5441087,7.01423621 25.4931052,9.22850039 25.4931052,11.5384394 C25.4931052,13.8483783 24.8284992,15.6126778 22.8569976,17.6883128 C21.5426632,19.0720695 19.4213657,22.2294656 16.4931052,27.1605013 C13.5996264,22.2866435 11.4781777,19.1292474 10.1287591,17.6883128 Z" id="路径" fill="#4096FF" fill-rule="nonzero" transform="translate(16.493105, 15.000000) rotate(-90.000000) translate(-16.493105, -15.000000) "></path>
+                    <circle id="Oval-2-Copy" fill="#4096FF" opacity="0.300000012" transform="translate(13.000000, 15.000000) rotate(90.000000) translate(-13.000000, -15.000000) " cx="13" cy="15" r="11"></circle>
+                    <circle id="Oval-2-Copy" stroke="#FFFFFF" stroke-width="3" fill="#4096FF" transform="translate(13.000000, 15.000000) rotate(90.000000) translate(-13.000000, -15.000000) " cx="13" cy="15" r="7.5"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

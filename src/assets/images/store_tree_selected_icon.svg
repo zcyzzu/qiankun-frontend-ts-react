@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="17px" viewBox="0 0 16 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>切片</title>
+    <g id="通用" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="通用" transform="translate(-301.000000, -237.000000)">
+            <g id="通用" transform="translate(259.000000, 143.000000)">
+                <g id="通用" transform="translate(0.000000, 48.000000)">
+                    <g id="通用" transform="translate(42.000000, 46.049080)">
+                        <rect id="矩形" fill="#D8D8D8" opacity="0" x="0" y="0" width="16" height="16"></rect>
+                        <line x1="9.51168063" y1="9.24265122" x2="10.5010254" y2="11.8277965" id="路径-18" stroke="#4096FF" stroke-width="1.2"></line>
+                        <polygon id="路径-15" stroke="#4096FF" stroke-width="1.2" points="14.5588558 6.73574997 0.934285006 6.73574997 2.35329832 2.44988935 13.1381734 2.44988935"></polygon>
+                        <polyline id="路径-16" stroke="#4096FF" stroke-width="1.2" points="13.8013607 6.96670302 13.8013607 13.9437352 1.76363117 14.058224 1.76363117 6.96670302"></polyline>
+                        <line x1="6.40347695" y1="6.96670302" x2="6.40347695" y2="14.058224" id="路径-17" stroke="#4096FF" stroke-width="1.2"></line>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

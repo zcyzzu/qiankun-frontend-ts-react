@@ -1,0 +1,83 @@
+@import '../../../../common/styles/main.less';
+
+.modalContainer {
+  :global {
+    .ant-modal-body {
+      padding: 0;
+    }
+
+    .ant-modal-content {
+      background-color: transparent;
+      box-shadow: initial;
+    }
+  }
+
+  .modalContent {
+    width: 720px;
+    height: 450px;
+    background: #FFFFFF;
+    overflow-y: initial !important;
+    .commonModalContent(300px);
+
+    :global {
+      .ant-form-item-label {
+        text-align: left;
+
+        .ant-form-item-required::after {
+          display: none;
+        }
+      }
+    }
+
+    .modalHeader {
+      margin-bottom: 5px;
+      font-size: 16px;
+      font-weight: bold;
+      color: #333;
+      .modelClosed();
+
+      button {
+        float: right;
+      }
+
+      .modalHeaderSticky();
+    }
+
+    .contentWrapper {
+      display: flex;
+
+      .previewImage {
+        width: 514px;
+        height: 356px;
+        margin-right: 24px;
+
+        .video {
+          width: 100%;
+          height: 100%;
+        }
+      }
+
+      .previewDescribe {
+        .title {
+          font-weight: bold;
+          color: #333333;
+          font-size: 16px
+        }
+      }
+    }
+  }
+
+
+
+
+
+  .bottomButton {
+    text-align: center;
+
+    button {
+      &:nth-child(1) {
+        margin-right: 16px;
+      }
+    }
+  }
+}

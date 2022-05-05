@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>切片</title>
+    <g id="上屏发布" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="发布列表-配置发布的设备" transform="translate(-314.000000, -333.000000)">
+            <g id="编组-23" transform="translate(266.000000, 0.000000)">
+                <g id="编组-4" transform="translate(48.000000, 331.000000)">
+                    <g id="icon/zongjie" transform="translate(0.000000, 2.000000)">
+                        <rect id="矩形" fill="#D8D8D8" opacity="0" x="0" y="0" width="16" height="16"></rect>
+                        <g id="详情列表_view-list" transform="translate(1.000000, 1.000000)">
+                            <line x1="5.66442191" y1="3.76875" x2="11.0644219" y2="3.76875" id="路径" stroke="#333333" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></line>
+                            <line x1="5.55192191" y1="7.2" x2="10.9519219" y2="7.2" id="路径" stroke="#333333" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></line>
+                            <line x1="5.55192191" y1="10.575" x2="10.9519219" y2="10.575" id="路径" stroke="#333333" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></line>
+                            <path d="M3.3,4.42854352 C3.63138,4.42854352 3.9,4.15992352 3.9,3.82854352 C3.9,3.49716352 3.63138,3.22854352 3.3,3.22854352 C2.96862,3.22854352 2.7,3.49716352 2.7,3.82854352 C2.7,4.15992352 2.96862,4.42854352 3.3,4.42854352 Z" id="路径" fill="#333333"></path>
+                            <path d="M3.1875,7.80354352 C3.51888,7.80354352 3.7875,7.53492352 3.7875,7.20354352 C3.7875,6.87216352 3.51888,6.60354352 3.1875,6.60354352 C2.85612,6.60354352 2.5875,6.87216352 2.5875,7.20354352 C2.5875,7.53492352 2.85612,7.80354352 3.1875,7.80354352 Z" id="路径" fill="#333333"></path>
+                            <path d="M3.1875,11.1785435 C3.51888,11.1785435 3.7875,10.9099235 3.7875,10.5785435 C3.7875,10.2471635 3.51888,9.97854352 3.1875,9.97854352 C2.85612,9.97854352 2.5875,10.2471635 2.5875,10.5785435 C2.5875,10.9099235 2.85612,11.1785435 3.1875,11.1785435 Z" id="路径" fill="#333333"></path>
+                            <rect id="矩形" stroke="#333333" stroke-width="1.2" x="0.6" y="0.6" width="12.8" height="12.8" rx="1"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
