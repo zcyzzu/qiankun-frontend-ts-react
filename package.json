@@ -1,7 +1,7 @@
 {
-  "name": "tmis-frontend",
+  "name": "demo-frontend",
   "version": "1.0.0",
-  "homepage": "/tmis/",
+  "homepage": "/demo/",
   "private": true,
   "dependencies": {
     "@amap/amap-jsapi-loader": "^1.0.1",

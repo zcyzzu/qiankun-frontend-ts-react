@@ -3,7 +3,7 @@ replicaCount: 1
 
 ## 设置默认的 image、imageTag 和 imagePullPolicy。
 image:
-  repository: harbor-devops.timework.cn/operation-tw-crm/tmis-frontend
+  repository: harbor-devops.timework.cn/operation-tw-crm/demo-frontend
   tag: ~
   pullPolicy: IfNotPresent
 
@@ -38,7 +38,7 @@ podLabels: {}
 ## 实例运行时的环境变量
 env:
   open:
-    __FE_API_PUBLIC_URL__: https://api-tmis-dev.timework.cn
+    __FE_API_PUBLIC_URL__: https://api-demo-dev.timework.cn
 
 ## 资源请求和限制相关配置
 ## ref: http://kubernetes.io/docs/user-guide/compute-resources/
@@ -98,5 +98,5 @@ ingress:
   # - secretName: front-example-tls
   #   hosts:
   #   - front.example.com
-  path: /tmis/
-  host: http://apps-dev.tmis.timework.cn/
+  path: /demo/
+  host: http://apps-dev.demo.timework.cn/

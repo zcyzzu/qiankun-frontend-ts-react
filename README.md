@@ -68,7 +68,7 @@ npm run start
     |-- yarn.lock
 
 ### 代码部署（需要有对应的权限）
-推送代码后等待gitlab CI pipeline跑完，在devops开发平台-->应用部署-->资源-->选择对应环境下面的tmis前端-->变更实例，在选择版本下拉框选择对应开发分支及刚跑完的pipeline编号，确认无误后点击变更即可。
+推送代码后等待gitlab CI pipeline跑完，在devops开发平台-->应用部署-->资源-->选择对应环境下面的demo前端-->变更实例，在选择版本下拉框选择对应开发分支及刚跑完的pipeline编号，确认无误后点击变更即可。
 
 ### 相关文档
 - [the clean architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html) 

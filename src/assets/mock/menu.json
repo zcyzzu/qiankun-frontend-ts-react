@@ -2,8 +2,8 @@
   {
     "objectVersionNumber": null,
     "id": 10,
-    "code": "tmis.manage.top.org",
-    "name": "TMIS时耘广告系统",
+    "code": "demo.manage.top.org",
+    "name": "demo",
     "pagePermissionCode": null,
     "parentId": 0,
     "parentCode": null,

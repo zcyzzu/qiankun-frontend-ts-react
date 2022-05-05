@@ -2,35 +2,35 @@
  * @Author: liyou
  * @Date: 2021-06-04 17:27:43
  * @LastEditors: zhangchenyang
- * @LastEditTime: 2021-11-18 18:31:53
+ * @LastEditTime: 2022-05-05 14:53:29
  */
-import './publicPath';
-import React from 'react';
-import ReactDOM from 'react-dom';
-import axios from 'axios';
-import moment from 'moment';
-import qs from 'qs';
-import Cookies from 'js-cookie';
-import { BrowserRouter } from 'react-router-dom';
-import { renderRoutes } from 'react-router-config';
-import './global.less';
-import routes from './routes';
-import * as serviceWorker from './serviceWorker';
-import ConfigProvider from './common/config/configProvider';
-import setupInterceptorsTo from './utils/interceptors';
-import DI from './inversify.config';
+import "./publicPath";
+import React from "react";
+import ReactDOM from "react-dom";
+import axios from "axios";
+import moment from "moment";
+import qs from "qs";
+import Cookies from "js-cookie";
+import { BrowserRouter } from "react-router-dom";
+import { renderRoutes } from "react-router-config";
+import "./global.less";
+import routes from "./routes";
+import * as serviceWorker from "./serviceWorker";
+import ConfigProvider from "./common/config/configProvider";
+import setupInterceptorsTo from "./utils/interceptors";
+import DI from "./inversify.config";
 
 // import 'antd/dist/antd.less';
 // import './common/styles/twTheme.less';
 
-import 'moment/locale/zh-cn';
-import { CONFIG_IDENTIFIER } from './constants/identifiers';
+import "moment/locale/zh-cn";
+import { CONFIG_IDENTIFIER } from "./constants/identifiers";
 
-moment.locale('zh-cn');
+moment.locale("zh-cn");
 
 window.__FE_CONF_PROV__ = DI.DIContainer.get<ConfigProvider>(
-  CONFIG_IDENTIFIER.CONFIG_PROVIDER,
-)
+  CONFIG_IDENTIFIER.CONFIG_PROVIDER
+);
 
 // register axios interceptors
 setupInterceptorsTo(axios);
@@ -38,29 +38,31 @@ setupInterceptorsTo(axios);
 // override Date toJSON
 /*eslint no-extend-native: ["error", { "exceptions": ["Date"] }]*/
 Date.prototype.toJSON = function toJSON(): string {
-  return moment(this).format('YYYY-MM-DD HH:mm:ss');
+  return moment(this).format("YYYY-MM-DD HH:mm:ss");
 };
 
 // oauth login callback token process
-const loginRedirect = window.location.href.split('&redirectFlag#');
+const loginRedirect = window.location.href.split("&redirectFlag#");
 if (loginRedirect && loginRedirect.length >= 2) {
   const redirectPath = loginRedirect[0];
   const tokenData = qs.parse(loginRedirect[1]);
-  console.log('receive redirect path: ', redirectPath);
-  console.log('receive token str: ', tokenData);
-  Cookies.set('access_token', tokenData.access_token as string);
-  Cookies.set('token_type', tokenData.token_type as string);
-  window.history.pushState({}, '', redirectPath);
+  console.log("receive redirect path: ", redirectPath);
+  console.log("receive token str: ", tokenData);
+  Cookies.set("access_token", tokenData.access_token as string);
+  Cookies.set("token_type", tokenData.token_type as string);
+  window.history.pushState({}, "", redirectPath);
 }
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 function render(props: any): void {
   const { container } = props;
   ReactDOM.render(
-    <BrowserRouter basename="/tmis">
+    <BrowserRouter basename="/demo">
       <React.StrictMode>{renderRoutes(routes)}</React.StrictMode>
     </BrowserRouter>,
-    container ? container.querySelector('#rootReactElement') : document.querySelector('#rootReactElement'),
+    container
+      ? container.querySelector("#rootReactElement")
+      : document.querySelector("#rootReactElement")
   );
 }
 
@@ -77,7 +79,7 @@ serviceWorker.unregister();
  * 通常我们可以在这里做一些全局变量的初始化，比如不会在 unmount 阶段被销毁的应用级别的缓存等。
  */
 export async function bootstrap(): Promise<void> {
-  console.log('react tmis app bootstraped');
+  console.log("react demo app bootstraped");
 }
 
 /**
@@ -85,7 +87,7 @@ export async function bootstrap(): Promise<void> {
  */
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 export async function mount(props: any): Promise<void> {
-  console.log('props from qiankun mount: ', props);
+  console.log("props from qiankun mount: ", props);
   render(props);
 }
 
@@ -94,9 +96,11 @@ export async function mount(props: any): Promise<void> {
  */
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 export async function unmount(props: any): Promise<void> {
-  console.log('props from qiankun unmount: ', props);
+  console.log("props from qiankun unmount: ", props);
   ReactDOM.unmountComponentAtNode(
-    props.container ? props.container.querySelector('#rootReactElement') : document.querySelector('#rootReactElement'),
+    props.container
+      ? props.container.querySelector("#rootReactElement")
+      : document.querySelector("#rootReactElement")
   );
 }
 
@@ -105,5 +109,5 @@ export async function unmount(props: any): Promise<void> {
  */
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 export async function update(props: any): Promise<void> {
-  console.log('update tmis props', props);
+  console.log("update demo props", props);
 }
