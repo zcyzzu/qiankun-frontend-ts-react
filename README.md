@@ -1,8 +1,8 @@
-## tmis-frontend
+## qiankun-frontend
 
 ### 项目介绍
 
-tmis前端工程，主要技术栈：**React, typescript, ant design, inversify js, mobx, axios, less**    
+前端工程，主要技术栈：**React, typescript, ant design, inversify js, mobx, axios, less**    
 
 
 ### 配置文件
