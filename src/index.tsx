@@ -2,15 +2,13 @@
  * @Author: liyou
  * @Date: 2021-06-04 17:27:43
  * @LastEditors: zhangchenyang
- * @LastEditTime: 2022-05-05 14:53:29
+ * @LastEditTime: 2022-06-13 19:00:21
  */
 import "./publicPath";
 import React from "react";
-import ReactDOM from "react-dom";
+import { createRoot } from "react-dom/client";
 import axios from "axios";
 import moment from "moment";
-import qs from "qs";
-import Cookies from "js-cookie";
 import { BrowserRouter } from "react-router-dom";
 import { renderRoutes } from "react-router-config";
 import "./global.less";
@@ -19,9 +17,6 @@ import * as serviceWorker from "./serviceWorker";
 import ConfigProvider from "./common/config/configProvider";
 import setupInterceptorsTo from "./utils/interceptors";
 import DI from "./inversify.config";
-
-// import 'antd/dist/antd.less';
-// import './common/styles/twTheme.less';
 
 import "moment/locale/zh-cn";
 import { CONFIG_IDENTIFIER } from "./constants/identifiers";
@@ -41,29 +36,26 @@ Date.prototype.toJSON = function toJSON(): string {
   return moment(this).format("YYYY-MM-DD HH:mm:ss");
 };
 
-// oauth login callback token process
-const loginRedirect = window.location.href.split("&redirectFlag#");
-if (loginRedirect && loginRedirect.length >= 2) {
-  const redirectPath = loginRedirect[0];
-  const tokenData = qs.parse(loginRedirect[1]);
-  console.log("receive redirect path: ", redirectPath);
-  console.log("receive token str: ", tokenData);
-  Cookies.set("access_token", tokenData.access_token as string);
-  Cookies.set("token_type", tokenData.token_type as string);
-  window.history.pushState({}, "", redirectPath);
-}
-
+let root:any = undefined;
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 function render(props: any): void {
   const { container } = props;
-  ReactDOM.render(
+  const appDom = container
+    ? container.querySelector("#rootReactElement")
+    : document.querySelector("#rootReactElement");
+  root = createRoot(appDom).render(
     <BrowserRouter basename="/demo">
       <React.StrictMode>{renderRoutes(routes)}</React.StrictMode>
-    </BrowserRouter>,
-    container
-      ? container.querySelector("#rootReactElement")
-      : document.querySelector("#rootReactElement")
+    </BrowserRouter>
   );
+  // ReactDOM.render(
+  //   <BrowserRouter basename="/demo">
+  //     <React.StrictMode>{renderRoutes(routes)}</React.StrictMode>
+  //   </BrowserRouter>,
+  //   container
+  //     ? container.querySelector("#rootReactElement")
+  //     : document.querySelector("#rootReactElement")
+  // );
 }
 
 // run without qiankun micro frontend e.g. dev
@@ -97,11 +89,12 @@ export async function mount(props: any): Promise<void> {
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 export async function unmount(props: any): Promise<void> {
   console.log("props from qiankun unmount: ", props);
-  ReactDOM.unmountComponentAtNode(
-    props.container
-      ? props.container.querySelector("#rootReactElement")
-      : document.querySelector("#rootReactElement")
-  );
+  // ReactDOM.unmountComponentAtNode(
+  //   props.container
+  //     ? props.container.querySelector("#rootReactElement")
+  //     : document.querySelector("#rootReactElement")
+  // );
+  root.unmount();
 }
 
 /**

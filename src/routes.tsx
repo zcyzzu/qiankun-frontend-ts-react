@@ -2,7 +2,7 @@
  * @Author: liyou
  * @Date: 2021-06-04 17:27:43
  * @LastEditors: zhangchenyang
- * @LastEditTime: 2022-05-05 14:50:09
+ * @LastEditTime: 2022-06-13 16:07:21
  */
 
 import React from "react";
@@ -11,8 +11,7 @@ import { Redirect } from "react-router-dom";
 
 import RootContainer from "./presenters/rootContainer";
 
-import NotFound from "./presenters/notFound";
-import NotPass from "./presenters/notPass";
+import Demo from "./presenters/demo";
 
 const routes: RouteConfig[] = [
   {
@@ -21,18 +20,14 @@ const routes: RouteConfig[] = [
       {
         path: "/",
         exact: true,
-        render: (): JSX.Element => <Redirect to="/notPass" />,
+        render: (): JSX.Element => <Redirect to="/demo" />,
       },
-      //403
+      // Demo
       {
-        path: "/notPass",
-        component: NotPass,
+        path: "/demo",
+        component: Demo,
       },
-      //404
-      {
-        path: "/notFound",
-        component: NotFound,
-      },
+ 
     ],
   },
 ];
